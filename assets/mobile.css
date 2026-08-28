@@ -1,0 +1,83 @@
+/* Mobile-only layout overrides. Desktop styles remain unchanged. */
+html { scroll-padding-top: 88px; }
+body { overflow-x: hidden; }
+img, svg { max-width: 100%; }
+
+@media (max-width: 900px) {
+  header {
+    padding: 14px 20px !important;
+    gap: 14px !important;
+  }
+
+  header > a { min-width: 0; gap: 10px !important; }
+  header > a img:first-child { width: 36px !important; height: 36px !important; }
+  header > a img:last-child { height: 21px !important; max-width: 116px; object-fit: contain; }
+  header nav { gap: 10px !important; }
+  header nav a:not(:last-child) { display: none; }
+  header nav a:last-child { padding: 9px 14px !important; font-size: 14px; white-space: nowrap; }
+
+  .home #top {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 42px !important;
+    padding: 54px 20px 48px !important;
+    text-align: center;
+  }
+
+  .home #top > div:first-child { align-items: center !important; }
+  .home #top h1 { font-size: clamp(48px, 15vw, 72px) !important; }
+  .home #top > div:first-child > p { max-width: 38ch !important; }
+  .home #top > div:first-child > div { justify-content: center; }
+  .home #top > div:first-child a { width: 100%; justify-content: center; }
+  .home #top > div:last-child { min-height: 500px !important; }
+  .home #top > div:last-child > div:nth-child(-n+3) { max-width: 88vw; max-height: 88vw; }
+  .home #top > div:last-child > div:last-child {
+    width: min(292px, 78vw) !important;
+    height: auto !important;
+    aspect-ratio: 352 / 628;
+    border-radius: 36px !important;
+    padding: 9px !important;
+  }
+
+  .home section { scroll-margin-top: 72px; }
+  .home #how,
+  .home #modes,
+  .home #faq,
+  .home section[style*="padding:0 56px 80px"] { padding-left: 20px !important; padding-right: 20px !important; }
+  .home #how { padding-top: 64px !important; padding-bottom: 64px !important; }
+  .home #how > div:last-child { grid-template-columns: minmax(0, 1fr) !important; gap: 12px !important; margin-top: 30px !important; }
+  .home #modes { padding-bottom: 32px !important; }
+  .home #modes div[style*="grid-template-columns:repeat(auto-fill"] { grid-template-columns: minmax(0, 1fr) !important; }
+  .home section[style="padding:72px 0"] { padding: 56px 0 !important; }
+  .home section[style="padding:72px 0"] > div { padding: 0 20px !important; }
+  .home section[style="padding:72px 0"] div[style*="grid-template-columns:repeat(3"] { grid-template-columns: minmax(0, 1fr) !important; gap: 22px !important; }
+  .home #faq { padding-bottom: 64px !important; }
+  .home #faq > div:last-child { grid-template-columns: minmax(0, 1fr) !important; gap: 0 !important; }
+  .home section[style*="padding:0 56px 80px"] { padding-bottom: 56px !important; }
+  .home section[style*="padding:0 56px 80px"] > div[style*="grid-template-columns:auto 1fr"] {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 22px !important;
+    padding: 28px 22px !important;
+  }
+  .home section[style*="padding:0 56px 80px"] > div[style*="text-align:center"] { padding: 44px 20px !important; }
+
+  footer { padding: 34px 20px !important; }
+  footer > div { align-items: flex-start !important; }
+
+  .legal-page div[style*="max-width:720px"] { padding: 44px 20px 64px !important; }
+}
+
+@media (max-width: 520px) {
+  .home #top > div:last-child { min-height: 440px !important; }
+  .home section:nth-of-type(2) > div {
+    flex-basis: 50% !important;
+    padding: 22px 18px !important;
+  }
+  .home section:nth-of-type(2) > div:nth-child(even) { border-right: 0 !important; }
+  .home #modes > div:first-child { align-items: flex-start !important; }
+  footer > div { flex-direction: column; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { scroll-behavior: auto !important; }
+}
