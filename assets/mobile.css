@@ -61,6 +61,32 @@ img, svg { max-width: 100%; }
     min-width: 0 !important;
     overflow: hidden;
   }
+  .home .maker-section { padding: 0 20px 56px !important; }
+  .home .maker-card {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 22px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    padding: 28px 22px !important;
+    overflow: hidden;
+  }
+  .home [data-dc-tpl="392"] { padding: 0 20px 56px !important; }
+  .home [data-dc-tpl="393"] {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 22px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    padding: 28px 22px !important;
+    overflow: hidden !important;
+  }
+  .home [data-dc-tpl="393"] > *,
+  .home [data-dc-tpl="393"] p,
+  .home [data-dc-tpl="393"] a { min-width: 0 !important; overflow-wrap: anywhere !important; }
+  .home .maker-card > *,
+  .home .maker-card p,
+  .home .maker-card a { min-width: 0; overflow-wrap: anywhere; }
   .home section[style*="padding:0 56px 80px"] > div[style*="grid-template-columns:auto 1fr"] > div,
   .home section[style*="padding:0 56px 80px"] > div[style*="grid-template-columns:auto 1fr"] p,
   .home section[style*="padding:0 56px 80px"] > div[style*="grid-template-columns:auto 1fr"] a {
@@ -76,6 +102,15 @@ img, svg { max-width: 100%; }
   footer > div { align-items: flex-start !important; }
 
   .legal-page div[style*="max-width:720px"] { padding: 44px 20px 64px !important; }
+}
+
+.gallery-image-link {
+  display: block;
+  border-radius: 10px;
+  border: 1px solid rgba(201,161,95,0.25);
+  background: #12291F;
+  overflow: hidden;
+  cursor: zoom-in;
 }
 
 @media (max-width: 520px) {
