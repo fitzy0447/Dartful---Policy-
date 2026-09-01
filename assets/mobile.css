@@ -49,6 +49,15 @@ img, svg { max-width: 100%; }
   .home .home-party-layout > div:last-child > p { width: min(292px, 78vw) !important; }
   .home .home-history-layout { gap: 36px !important; }
   .home .home-history-layout > div { min-width: 0; }
+  .home .history-leaderboard-row {
+    grid-template-columns: 32px minmax(0, 1fr) 62px 54px !important;
+    gap: 10px !important;
+    width: 100%;
+  }
+  .home .history-leaderboard-row > span { min-width: 0; }
+  .home .history-leaderboard-row > span:nth-child(3),
+  .home .history-leaderboard-row > span:nth-child(4) { white-space: nowrap; }
+  .home .history-leaderboard-row > span:nth-child(2) span { display: block; margin-top: 2px; }
   .home .home-history-layout figure,
   .home .home-history-layout figure > div { width: 100% !important; box-sizing: border-box; }
   .home #history > div[style*="grid-template-columns"] { grid-template-columns: minmax(0, 1fr) !important; }
