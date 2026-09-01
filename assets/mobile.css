@@ -184,3 +184,28 @@ img, svg { max-width: 100%; }
   html { scroll-behavior: auto; }
   * { scroll-behavior: auto !important; }
 }
+
+
+/* Dartful Party page (party.html) */
+@media (max-width: 900px) {
+  .party section:first-of-type {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 40px !important;
+    padding: 48px 20px 44px !important;
+    text-align: center;
+  }
+  .party section:first-of-type > div:first-child { align-items: center !important; }
+  .party section:first-of-type h1 { font-size: clamp(42px, 13vw, 66px) !important; }
+  .party section:first-of-type > div:first-child a { width: 100%; justify-content: center; text-align: center; }
+  .party section:first-of-type > div:last-child > div {
+    width: min(292px, 78vw) !important;
+    height: auto !important;
+    aspect-ratio: 300 / 536;
+    border-radius: 36px !important;
+  }
+  .party section { padding-left: 20px !important; padding-right: 20px !important; }
+  .party section > div { min-width: 0 !important; }
+  .party div[style*="grid-template-columns:1fr 0.9fr"],
+  .party div[style*="grid-template-columns:repeat(auto-fit"] { grid-template-columns: minmax(0, 1fr) !important; }
+  .party div[style*="grid-template-columns:repeat(auto-fit,minmax(330px,1fr))"] { gap: 0 !important; }
+}

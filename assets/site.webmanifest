@@ -1,7 +1,7 @@
 {
   "name": "Dartful",
   "short_name": "Dartful",
-  "description": "Twenty darts modes for real boards and real darts.",
+  "description": "Local multiplayer darts for a standard dartboard: classic, party and co-op games, Dartful Party championships, player profiles, stats and match history.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#0B1F17",

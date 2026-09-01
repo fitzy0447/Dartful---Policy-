@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Dartful Party — Multi-Game Darts Championship for 2–8 Players</title>
+<meta name="description" content="Dartful Party is a local multi-game darts championship for 2–8 players on one standard dartboard and one shared phone. Play across 3, 5 or 7 games, earn championship points by finishing position, and build persistent Party records — with live standings, key title scenarios, six end-of-night awards and a shareable result card." />
+<meta property="og:title" content="Dartful Party — Multi-Game Darts Championship for 2–8 Players" />
+<meta property="og:description" content="Several darts games, one title. Championship points by finishing position, live standings, six awards, and a saved record of who keeps winning." />
+<link rel="canonical" href="https://dartful.space/party.html" />
+<meta property="og:url" content="https://dartful.space/party.html" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Dartful" />
+<meta property="og:image" content="https://dartful.space/assets/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://dartful.space/assets/og-image.png" />
+<meta name="theme-color" content="#0B1F17" />
+<link rel="icon" href="assets/favicon.ico" sizes="any" />
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+<link rel="manifest" href="assets/site.webmanifest" />
+<link rel="stylesheet" href="assets/mobile.css" />
+<link href="fonts/fonts.css" rel="stylesheet" />
+<style>
+  body { margin: 0; background: #0B1F17; -webkit-font-smoothing: antialiased; }
+  * { box-sizing: border-box; }
+  a { color: #E3C083; text-decoration: none; }
+  a:hover { color: #F2EAD3; }
+  h1, h2, h3, h4, p { margin: 0; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "Dartful Party — multi-game darts championships",
+      "url": "https://dartful.space/party.html",
+      "description": "How Dartful Party works: championship lengths, eligible competitive modes, scoring by finishing position, supported players, awards, saved history and sharing.",
+      "isPartOf": { "@type": "WebSite", "name": "Dartful", "url": "https://dartful.space/" },
+      "about": {
+        "@type": "SoftwareApplication",
+        "name": "Dartful",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "iOS, Android",
+        "offers": { "@type": "Offer", "price": "9.99", "priceCurrency": "USD", "category": "Subscription", "description": "Free to download with three games a day. Unlimited play and Dartful Party are $9.99 a year, with no ads or other purchases." }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is Dartful Party?", "acceptedAnswer": { "@type": "Answer", "text": "Dartful Party is a local multi-game darts championship for 2–8 players using one standard dartboard and one shared phone. Players compete across 3, 5 or 7 different games, earn championship points based on finishing position, and build persistent Party records over time, with live standings between games and a champion crowned at the end." } },
+        { "@type": "Question", "name": "How is a Dartful Party scored?", "acceptedAnswer": { "@type": "Answer", "text": "Each eligible competitive mode awards championship points based on finishing position. Points accumulate across every game in the party, standings update between rounds, and before the final game Dartful lays out the key title scenarios for the players still in contention." } },
+        { "@type": "Question", "name": "How long is a Dartful Party?", "acceptedAnswer": { "@type": "Answer", "text": "You choose Quick, Classic or Epic: Quick is 3 games, Classic is 5 and Epic is 7, so the party fits the time you have." } },
+        { "@type": "Question", "name": "Which modes can be in a Dartful Party?", "acceptedAnswer": { "@type": "Answer", "text": "Seventeen competitive modes are eligible for the lineup, spanning classic darts and original party games. You can hand-pick the lineup or use Surprise Me for a balanced mix, and customise each game's rules before it starts. Co-op games have no individual finishing positions, so they sit outside a championship and remain available separately." } },
+        { "@type": "Question", "name": "How many players can play a Dartful Party?", "acceptedAnswer": { "@type": "Answer", "text": "Two to eight players, all on one shared screen. No account or internet connection is required. Most modes work from two players up; a few, such as Checkout Horse, need at least three." } },
+        { "@type": "Question", "name": "What awards does Dartful Party give out?", "acceptedAnswer": { "@type": "Answer", "text": "Six end-of-night awards: Hot Hand, Sharpshooter, Assassin, Comeback, Bullseye Royalty and the Wooden Spoon, alongside the championship result itself." } },
+        { "@type": "Question", "name": "Does Dartful Party save championship history?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every party is saved to your group's records: titles, podium finishes, total championship points, win streaks, the defending champion, an all-time leaderboard and head-to-head records between saved players." } },
+        { "@type": "Question", "name": "Can I share a Dartful Party result?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Each party ends with a shareable result card showing the final standings and awards, ready for the group chat." } }
+      ]
+    }
+  ]
+}
+</script>
+</helmet>
+
+<div style="background:#0B1F17;color:#F2EAD3;font-family:'Source Serif 4',Georgia,serif;font-size:17px;line-height:1.65;min-height:100vh;overflow-x:hidden">
+
+  <header style="position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:22px 56px;background:rgba(11,31,23,0.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(201,161,95,0.25)">
+    <a href="index.html" style="display:flex;align-items:center;gap:16px">
+      <img src="assets/mark.png" alt="Dartful" style="display:block;width:46px;height:46px;border-radius:50%" />
+      <img src="assets/wordmark.png" alt="DARTFUL" style="display:block;height:28px;width:auto" />
+    </a>
+    <nav style="display:flex;align-items:center;gap:28px;font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:17px;letter-spacing:1.2px;text-transform:uppercase">
+      <a href="index.html#modes" style="color:#7FA08E">20 Modes</a>
+      <a href="index.html#history" style="color:#7FA08E">History</a>
+      <a href="index.html#faq" style="color:#7FA08E">FAQ</a>
+      <a href="support.html" style="color:#7FA08E">Support</a>
+      <a href="https://apps.apple.com/au/app/dartful/id6802178228" style="padding:11px 22px;border-radius:8px;background:#C9A15F;color:#0B1F17" style-hover="background:#E3C083;color:#0B1F17">Download</a>
+    </nav>
+  </header>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="p2-plinth" viewBox="0 0 100 120">
+        <ellipse cx="50" cy="117.5" rx="27" ry="3.4" fill="#000000" opacity="0.4"></ellipse>
+        <path d="M44.5,80 H55.5 L57.5,101 H42.5 Z" fill="#C9A15F"></path>
+        <path d="M44.5,80 H48 L46.5,101 H42.5 Z" fill="#E3C083"></path>
+        <path d="M53,80 H55.5 L57.5,101 H54.5 Z" fill="#8E6E3C"></path>
+        <rect x="34" y="100.5" width="32" height="7" rx="2" fill="#C9A15F"></rect>
+        <rect x="27" y="107.5" width="46" height="10" rx="3" fill="#C9A15F"></rect>
+        <rect x="27" y="107.5" width="46" height="2.8" rx="1.4" fill="#E3C083"></rect>
+        <rect x="27" y="114.4" width="46" height="3.1" rx="1.5" fill="#8E6E3C"></rect>
+      </symbol>
+      <symbol id="p2-trophy" viewBox="0 0 100 120">
+        <use href="#p2-plinth"></use>
+        <circle cx="50" cy="45" r="35" fill="#8E6E3C"></circle>
+        <circle cx="50" cy="45" r="33" fill="#C9A15F"></circle>
+        <path d="M50,12 A33,33 0 0 0 17,45" fill="none" stroke="#E3C083" stroke-width="3.4"></path>
+        <path d="M50,78 A33,33 0 0 0 83,45" fill="none" stroke="#8E6E3C" stroke-width="3.4"></path>
+        <circle cx="50" cy="45" r="25" fill="#0B1F17"></circle>
+        <circle cx="50" cy="45" r="20.4" fill="#E3C083"></circle>
+        <path fill-rule="evenodd" d="M40,32.5 H49 C55.8,32.5 59.6,36.8 59.6,43.6 V46.4 C59.6,53.2 55.8,57.5 49,57.5 H40 Z M46.3,38.7 V51.3 H48.7 C51.4,51.3 52.7,50 52.7,47.5 V42.5 C52.7,40 51.4,38.7 48.7,38.7 Z" fill="#0B1F17"></path>
+      </symbol>
+    </defs>
+  </svg>
+
+  <section style="display:grid;grid-template-columns:1.15fr 0.85fr;gap:56px;align-items:center;padding:76px 56px 64px;max-width:1640px;margin:0 auto">
+    <div style="display:flex;flex-direction:column;align-items:flex-start;gap:22px">
+      <div style="display:flex;align-items:center;gap:14px">
+        <svg viewBox="0 0 100 120" width="40" height="48" role="img" aria-label="Dartful Party trophy"><use href="#p2-trophy"></use></svg>
+        <p style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:14px;letter-spacing:2px;text-transform:uppercase;color:#C9A15F">Dartful Party &mdash; in the app now</p>
+      </div>
+      <h1 style="font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:clamp(48px,6vw,88px);line-height:0.88;letter-spacing:1px;text-transform:uppercase;color:#F2EAD3">Several games.<br />One <span style="color:#E3C083">title</span>.</h1>
+      <p style="font-size:19px;line-height:1.6;max-width:50ch;text-wrap:pretty">Dartful Party is a local multi&#8209;game darts championship for 2&ndash;8 players using one standard dartboard and one shared phone. Players compete across 3, 5 or 7 different games, earn championship points based on finishing position, and build persistent Party records over time.</p>
+      <p style="font-size:18px;line-height:1.6;max-width:50ch;color:#7FA08E;text-wrap:pretty">Standings update as the night goes, somebody walks away as champion, and the whole thing gets written into your group's records &mdash; whether they deserve it or not.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:4px">
+        <a href="https://apps.apple.com/au/app/dartful/id6802178228" style="padding:14px 26px;border-radius:8px;background:#C9A15F;color:#0B1F17;font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:16px;letter-spacing:0.5px;text-transform:uppercase" style-hover="background:#E3C083;color:#0B1F17">Download on the App Store</a>
+        <a href="https://play.google.com/store/apps/details?id=com.dartful.app" style="padding:14px 26px;border-radius:8px;border:1px solid rgba(201,161,95,0.45);color:#E3C083;font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:16px;letter-spacing:0.5px;text-transform:uppercase" style-hover="border-color:#E3C083;color:#F2EAD3">Get it on Google Play</a>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center;font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:13.5px;letter-spacing:2px;text-transform:uppercase;color:#7FA08E;margin-top:6px">
+        <span>2&ndash;8 players</span><span style="color:rgba(201,161,95,0.5)">&middot;</span><span>17 eligible modes</span><span style="color:rgba(201,161,95,0.5)">&middot;</span><span>3 / 5 / 7 games</span><span style="color:rgba(201,161,95,0.5)">&middot;</span><span>Saved history</span>
+      </div>
+    </div>
+    <div style="display:flex;justify-content:center">
+      <div style="position:relative;width:300px;height:536px;border-radius:40px;padding:10px;background:#12291F;border:3px solid #C9A15F;box-shadow:0 0 0 1px rgba(11,31,23,0.6)">
+        <div style="width:100%;height:100%;overflow:hidden;border-radius:28px;background:#0B1F17">
+          <img src="assets/app-party-setup.webp" alt="Dartful Party setup screen showing Quick, Classic and Epic championships and the defending champion" width="1179" height="2433" decoding="async" fetchpriority="high" style="display:block;width:100%;height:auto" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding:0 56px 72px;max-width:1640px;margin:0 auto;display:flex;flex-direction:column;gap:56px">
+
+    <div>
+      <h2 style="font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:clamp(30px,3.4vw,46px);line-height:1;text-transform:uppercase;color:#E3C083">Setting up a party</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:26px">
+        <div style="padding:24px 26px;border-radius:10px;border:1px solid rgba(201,161,95,0.25);background:#12291F">
+          <h3 style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:21px;letter-spacing:0.3px;text-transform:uppercase;color:#E3C083">Choose a length</h3>
+          <p style="margin-top:8px;font-size:16px;line-height:1.6;color:#7FA08E">Quick is 3 games, Classic is 5, and Epic is 7. A Quick fits a single round of drinks; an Epic is a commitment.</p>
+        </div>
+        <div style="padding:24px 26px;border-radius:10px;border:1px solid rgba(201,161,95,0.25);background:#12291F">
+          <h3 style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:21px;letter-spacing:0.3px;text-transform:uppercase;color:#E3C083">Add 2&ndash;8 players</h3>
+          <p style="margin-top:8px;font-size:16px;line-height:1.6;color:#7FA08E">Everyone plays off one shared screen, and saved players carry their own profile and stats.</p>
+        </div>
+        <div style="padding:24px 26px;border-radius:10px;border:1px solid rgba(201,161,95,0.25);background:#12291F">
+          <h3 style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:21px;letter-spacing:0.3px;text-transform:uppercase;color:#E3C083">Build the lineup</h3>
+          <p style="margin-top:8px;font-size:16px;line-height:1.6;color:#7FA08E">Seventeen competitive modes are eligible for the lineup, with co&#8209;op games still available separately. Pick them yourself or hit Surprise Me for a balanced mix. <a href="index.html#modes">See the full lineup.</a></p>
+        </div>
+        <div style="padding:24px 26px;border-radius:10px;border:1px solid rgba(201,161,95,0.25);background:#12291F">
+          <h3 style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:21px;letter-spacing:0.3px;text-transform:uppercase;color:#E3C083">Set the rules</h3>
+          <p style="margin-top:8px;font-size:16px;line-height:1.6;color:#7FA08E">Every game in the party can be customised before it starts. House rules officially recognised.</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2 style="font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:clamp(30px,3.4vw,46px);line-height:1;text-transform:uppercase;color:#E3C083">How the scoring works</h2>
+      <div style="display:grid;grid-template-columns:1fr 0.9fr;gap:40px;align-items:start;margin-top:26px">
+        <div style="display:flex;flex-direction:column;gap:16px">
+          <p style="font-size:17.5px;line-height:1.6;max-width:56ch;text-wrap:pretty">Each eligible competitive mode awards championship points based on finishing position, and those points carry across the whole party. Standings update between every game, with commentary on who's climbing and who's quietly falling apart. Before the last game, Dartful lays out the key title scenarios &mdash; what the players still in contention need &mdash; so the final round actually means something.</p>
+          <p style="font-size:17.5px;line-height:1.6;max-width:56ch;text-wrap:pretty">Because points come from placings, only modes with individual finishing positions can appear in a championship &mdash; which is why co&#8209;op games sit outside it. It also keeps a party competitive across wildly different games.</p>
+        </div>
+        <div style="padding:24px 26px;border-radius:10px;border:1px solid rgba(201,161,95,0.3);background:linear-gradient(160deg,rgba(201,161,95,0.1) 0%,rgba(18,41,31,0) 70%),#12291F">
+          <p style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:12.5px;letter-spacing:2px;text-transform:uppercase;color:#C9A15F">Example standings &mdash; after game 4 of 5</p>
+          <div style="display:flex;flex-direction:column;margin-top:14px;border-top:1px solid rgba(201,161,95,0.2)">
+            <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;padding:12px 0;border-bottom:1px solid rgba(201,161,95,0.2);font-family:'Big Shoulders Display',sans-serif;font-weight:700;letter-spacing:1.4px;text-transform:uppercase">
+              <span style="font-size:14px;color:#C9A15F">01</span><span style="font-size:18px;color:#F2EAD3">Daveo</span><span style="font-size:15px;color:#E3C083">28 pts</span>
+            </div>
+            <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;padding:12px 0;border-bottom:1px solid rgba(201,161,95,0.2);font-family:'Big Shoulders Display',sans-serif;font-weight:700;letter-spacing:1.4px;text-transform:uppercase">
+              <span style="font-size:14px;color:#C9A15F">02</span><span style="font-size:18px;color:#F2EAD3">Shaz</span><span style="font-size:15px;color:#E3C083">25 pts</span>
+            </div>
+            <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;padding:12px 0;border-bottom:1px solid rgba(201,161,95,0.2);font-family:'Big Shoulders Display',sans-serif;font-weight:700;letter-spacing:1.4px;text-transform:uppercase">
+              <span style="font-size:14px;color:#7FA08E">03</span><span style="font-size:18px;color:#F2EAD3">Mick</span><span style="font-size:15px;color:#7FA08E">19 pts</span>
+            </div>
+            <div style="display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center;padding:12px 0;border-bottom:1px solid rgba(201,161,95,0.2);font-family:'Big Shoulders Display',sans-serif;font-weight:700;letter-spacing:1.4px;text-transform:uppercase">
+              <span style="font-size:14px;color:#7FA08E">04</span><span style="font-size:18px;color:#F2EAD3">Daz</span><span style="font-size:15px;color:#7FA08E">14 pts</span>
+            </div>
+          </div>
+          <p style="margin-top:16px;font-size:15.5px;line-height:1.5;color:#F2EAD3;font-style:italic">Final game: Daveo takes it with a second or better. Shaz needs the win and Mick outside the top three.</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2 style="font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:clamp(30px,3.4vw,46px);line-height:1;text-transform:uppercase;color:#E3C083">Awards, and a card to send round</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:26px">
+        <div style="padding:24px 26px;border-radius:10px;border:1px solid rgba(201,161,95,0.25);background:#12291F">
+          <h3 style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:21px;letter-spacing:0.3px;text-transform:uppercase;color:#E3C083">Six end&#8209;of&#8209;night awards</h3>
+          <p style="margin-top:8px;font-size:16px;line-height:1.6;color:#7FA08E">Hot Hand, Sharpshooter, Assassin, Comeback and Bullseye Royalty for the throwing that deserved it &mdash; and the Wooden Spoon for the throwing that didn't.</p>
+        </div>
+        <div style="padding:24px 26px;border-radius:10px;border:1px solid rgba(201,161,95,0.25);background:#12291F">
+          <h3 style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:21px;letter-spacing:0.3px;text-transform:uppercase;color:#E3C083">Shareable result card</h3>
+          <p style="margin-top:8px;font-size:16px;line-height:1.6;color:#7FA08E">Final standings and awards on one card, ready for the group chat. Evidence, essentially.</p>
+        </div>
+        <div style="padding:24px 26px;border-radius:10px;border:1px solid rgba(201,161,95,0.25);background:#12291F">
+          <h3 style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:21px;letter-spacing:0.3px;text-transform:uppercase;color:#E3C083">A champion on record</h3>
+          <p style="margin-top:8px;font-size:16px;line-height:1.6;color:#7FA08E">The winner becomes the defending champion until the next party takes it off them.</p>
+        </div>
+      </div>
+    </div>
+
+    <figure style="display:flex;flex-direction:column;align-items:center;gap:12px;margin:0">
+      <div style="width:320px;max-width:100%;border-radius:40px;padding:10px;background:#12291F;border:3px solid #C9A15F;box-shadow:0 0 0 1px rgba(11,31,23,0.6)">
+        <div style="overflow:hidden;border-radius:30px;background:#0B1F17">
+          <img src="assets/app-party-champ.webp" alt="Dartful Party champion screen showing the defending champion keeping the crown" width="1179" height="2433" loading="lazy" decoding="async" style="display:block;width:100%;height:auto" />
+        </div>
+      </div>
+      <figcaption style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#7FA08E">How a party ends</figcaption>
+    </figure>
+
+    <div>
+      <h2 style="font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:clamp(30px,3.4vw,46px);line-height:1;text-transform:uppercase;color:#E3C083">Party history &amp; records</h2>
+      <p style="margin-top:18px;font-size:17.5px;line-height:1.6;max-width:62ch;text-wrap:pretty">Nothing ends when the night does. Every party is saved to your group's records &mdash; titles, podium finishes, total championship points, win streaks and the current defending champion &mdash; on top of the saved player profiles, match history and head&#8209;to&#8209;head records Dartful already keeps.</p>
+      <figure style="display:flex;flex-direction:column;align-items:center;gap:12px;margin:30px 0 0">
+        <div style="width:320px;max-width:100%;border-radius:40px;padding:10px;background:#12291F;border:3px solid #C9A15F;box-shadow:0 0 0 1px rgba(11,31,23,0.6)">
+          <div style="overflow:hidden;border-radius:30px;background:#0B1F17">
+            <img src="assets/app-party-saved.webp" alt="Dartful Party saved championship history showing final standings, lineup and awards" width="1179" height="2398" loading="lazy" decoding="async" style="display:block;width:100%;height:auto" />
+          </div>
+        </div>
+        <figcaption style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#7FA08E">A saved party, months later</figcaption>
+      </figure>
+      <p style="margin-top:34px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12.5px;letter-spacing:0.04em;text-transform:uppercase;color:#C9A15F">Example group record &mdash; illustrative figures</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-top:14px">
+        <div style="padding:22px 24px;border-radius:10px;border:1px solid rgba(201,161,95,0.25);background:#12291F">
+          <p style="font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:36px;line-height:1;color:#E3C083">12</p>
+          <p style="margin-top:6px;font-size:15.5px;color:#7FA08E">parties played by this group</p>
+        </div>
+        <div style="padding:22px 24px;border-radius:10px;border:1px solid rgba(201,161,95,0.25);background:#12291F">
+          <p style="font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:36px;line-height:1;color:#E3C083">3</p>
+          <p style="margin-top:6px;font-size:15.5px;color:#7FA08E">party win streak, current best</p>
+        </div>
+        <div style="padding:22px 24px;border-radius:10px;border:1px solid rgba(201,161,95,0.25);background:#12291F">
+          <p style="font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:36px;line-height:1;color:#E3C083">8&ndash;3</p>
+          <p style="margin-top:6px;font-size:15.5px;color:#7FA08E">head&#8209;to&#8209;head, Daveo v Daz</p>
+        </div>
+        <div style="padding:22px 24px;border-radius:10px;border:1px solid rgba(201,161,95,0.25);background:#12291F">
+          <p style="font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:36px;line-height:1;color:#E3C083">412</p>
+          <p style="margin-top:6px;font-size:15.5px;color:#7FA08E">championship points banked</p>
+        </div>
+      </div>
+      <p style="margin-top:22px;font-size:16.5px;line-height:1.6;color:#7FA08E"><a href="index.html#history">See how history and rivalries work &rarr;</a></p>
+    </div>
+
+    <div>
+      <h2 style="font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:clamp(30px,3.4vw,46px);line-height:1;text-transform:uppercase;color:#E3C083">Dartful Party questions</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:0 56px;margin-top:26px">
+        <div style="display:flex;flex-direction:column">
+          <div style="padding:20px 0;border-bottom:1px solid rgba(201,161,95,0.2)">
+            <h3 style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:19px;text-transform:uppercase;color:#E3C083">How long is a party?</h3>
+            <p style="margin-top:6px;font-size:16px;line-height:1.6;color:#7FA08E">Quick is 3 games, Classic is 5, and Epic is 7 &mdash; so it fits the night you've got rather than the other way round.</p>
+          </div>
+          <div style="padding:20px 0;border-bottom:1px solid rgba(201,161,95,0.2)">
+            <h3 style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:19px;text-transform:uppercase;color:#E3C083">Which modes are eligible?</h3>
+            <p style="margin-top:6px;font-size:16px;line-height:1.6;color:#7FA08E">Seventeen competitive modes are eligible for the lineup, with co&#8209;op games still available separately &mdash; they have no individual finishing positions, so they can't award championship points. <a href="index.html#modes">See the full lineup.</a></p>
+          </div>
+          <div style="padding:20px 0;border-bottom:1px solid rgba(201,161,95,0.2)">
+            <h3 style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:19px;text-transform:uppercase;color:#E3C083">How many players?</h3>
+            <p style="margin-top:6px;font-size:16px;line-height:1.6;color:#7FA08E">Two to eight on one shared screen. No account, no internet, no electronic board. Most modes work from two players up &mdash; a few, like Checkout Horse, need at least three.</p>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column">
+          <div style="padding:20px 0;border-bottom:1px solid rgba(201,161,95,0.2)">
+            <h3 style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:19px;text-transform:uppercase;color:#E3C083">Is the history saved?</h3>
+            <p style="margin-top:6px;font-size:16px;line-height:1.6;color:#7FA08E">Yes &mdash; titles, podiums, points, streaks, the defending champion, an all&#8209;time leaderboard and head&#8209;to&#8209;head records between saved players. <a href="index.html#history">More on history and rivalries.</a></p>
+          </div>
+          <div style="padding:20px 0;border-bottom:1px solid rgba(201,161,95,0.2)">
+            <h3 style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:19px;text-transform:uppercase;color:#E3C083">Can I share the result?</h3>
+            <p style="margin-top:6px;font-size:16px;line-height:1.6;color:#7FA08E">Every party ends with a shareable result card of the final standings and awards.</p>
+          </div>
+          <div style="padding:20px 0;border-bottom:1px solid rgba(201,161,95,0.2)">
+            <h3 style="font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:19px;text-transform:uppercase;color:#E3C083">What does it cost?</h3>
+            <p style="margin-top:6px;font-size:16px;line-height:1.6;color:#7FA08E">Free to download with three games a day. Unlimited play and Dartful Party are $9.99 a year, with no ads or other purchases.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center;gap:18px;padding:56px 40px;border-radius:10px;border:1px solid rgba(201,161,95,0.3);background:#12291F;text-align:center">
+      <h2 style="font-family:'Big Shoulders Display',sans-serif;font-weight:800;font-size:clamp(30px,3.6vw,50px);line-height:0.98;text-transform:uppercase;color:#E3C083;max-width:24ch">Start a party. Settle it properly.</h2>
+      <p style="max-width:46ch;font-size:18px;line-height:1.6;color:#F2EAD3">Free on the App Store and Google Play, with three games a day included. Dartful Party is in the app right now.</p>
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:8px">
+        <a href="https://apps.apple.com/au/app/dartful/id6802178228" style="padding:14px 26px;border-radius:8px;background:#C9A15F;color:#0B1F17;font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:16px;letter-spacing:0.5px;text-transform:uppercase" style-hover="background:#E3C083;color:#0B1F17">Download on the App Store</a>
+        <a href="https://play.google.com/store/apps/details?id=com.dartful.app" style="padding:14px 26px;border-radius:8px;border:1px solid rgba(201,161,95,0.45);color:#E3C083;font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:16px;letter-spacing:0.5px;text-transform:uppercase" style-hover="border-color:#E3C083;color:#F2EAD3">Get it on Google Play</a>
+      </div>
+    </div>
+  </section>
+
+  <footer style="padding:40px 56px;border-top:1px solid rgba(201,161,95,0.2)">
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:28px;max-width:1640px;margin:0 auto">
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <img src="assets/wordmark.png" alt="DARTFUL" style="display:block;height:20px;width:auto" />
+        <span style="font-size:15px;color:#7FA08E;font-style:italic">Local multiplayer darts. Home of questionable aim.</span>
+      </div>
+      <nav style="display:flex;flex-wrap:wrap;gap:24px;font-family:'Big Shoulders Display',sans-serif;font-weight:700;font-size:14px;letter-spacing:1px;text-transform:uppercase">
+        <a href="index.html" style="color:#7FA08E">Home</a>
+        <a href="privacy.html" style="color:#7FA08E">Privacy</a>
+        <a href="terms.html" style="color:#7FA08E">Terms</a>
+        <a href="support.html" style="color:#7FA08E">Support</a>
+      </nav>
+      <span style="font-size:13px;color:#7FA08E">&copy; 2026 Dartful. All rights reserved.</span>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  componentDidMount() { document.body.classList.add('party'); }
+}
+</script>
+</body>
+</html>
