@@ -47,16 +47,23 @@
       "name": "Dartful",
       "alternateName": "Dartful — Make a night of it.",
       "slogan": "Make a night of it.",
-      "description": "The official Dartful website for local multiplayer darts, Dartful Party championships, player history, rivalries and 20 game modes for 2–8 players."
+      "description": "The official Dartful website for local multiplayer darts, Dartful Party championships, player history, rivalries and 20 game modes for 2–8 players.",
+      "about": { "@id": "https://dartful.space/#app" },
+      "publisher": { "@id": "https://dartful.space/#organization" }
     },
     {
       "@type": "SoftwareApplication",
+      "@id": "https://dartful.space/#app",
       "name": "Dartful",
       "alternateName": "Dartful — local multiplayer darts app",
       "applicationCategory": "GameApplication",
       "applicationSubCategory": "Sports Game",
       "operatingSystem": "iOS, Android",
       "url": "https://dartful.space/",
+      "sameAs": [
+        "https://apps.apple.com/au/app/dartful/id6802178228",
+        "https://play.google.com/store/apps/details?id=com.dartful.app"
+      ],
       "slogan": "Make a night of it.",
       "description": "Dartful is a local multiplayer darts app for iOS and Android, built for standard dartboards. Play 20 classic, party and co-op modes, run multi-game Dartful Party championships, and track player profiles, match history, stats, head-to-head records and long-term Party results for 2–8 players on one shared screen.",
       "featureList": [
@@ -81,7 +88,15 @@
         "description": "Free to download with three games a day. Unlimited play and Dartful Party are $9.99 a year, auto-renewing, cancel anytime, with no ads or other purchases."
       },
       "author": { "@type": "Person", "name": "Leigh" },
-      "publisher": { "@type": "Organization", "name": "Dartful", "email": "dartfulapp@gmail.com" }
+      "publisher": { "@id": "https://dartful.space/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://dartful.space/#organization",
+      "name": "Dartful",
+      "url": "https://dartful.space/",
+      "logo": "https://dartful.space/assets/android-chrome-512x512.png",
+      "email": "dartfulapp@gmail.com"
     },
     {
       "@type": "FAQPage",
