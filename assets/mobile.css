@@ -266,6 +266,11 @@ img, svg { max-width: 100%; }
   }
   .party section { padding-left: 20px !important; padding-right: 20px !important; }
   .party section > div { min-width: 0 !important; }
+  .party .party-scoring-layout {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 28px !important;
+  }
+  .party .party-scoring-layout > div { min-width: 0; width: 100%; }
   .party div[style*="grid-template-columns:1fr 0.9fr"],
   .party div[style*="grid-template-columns:repeat(auto-fit"] { grid-template-columns: minmax(0, 1fr) !important; }
   .party div[style*="grid-template-columns:repeat(auto-fit,minmax(330px,1fr))"] { gap: 0 !important; }
