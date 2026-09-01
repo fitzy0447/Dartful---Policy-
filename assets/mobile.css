@@ -95,19 +95,6 @@ img, svg { max-width: 100%; }
     padding: 28px 22px !important;
     overflow: hidden;
   }
-  .home [data-dc-tpl="392"] { padding: 0 20px 56px !important; }
-  .home [data-dc-tpl="393"] {
-    display: grid !important;
-    grid-template-columns: minmax(0, 1fr) !important;
-    gap: 22px !important;
-    width: 100% !important;
-    min-width: 0 !important;
-    padding: 28px 22px !important;
-    overflow: hidden !important;
-  }
-  .home [data-dc-tpl="393"] > *,
-  .home [data-dc-tpl="393"] p,
-  .home [data-dc-tpl="393"] a { min-width: 0 !important; overflow-wrap: anywhere !important; }
   .home .maker-card > *,
   .home .maker-card p,
   .home .maker-card a { min-width: 0; overflow-wrap: anywhere; }
